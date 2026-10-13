@@ -1,9 +1,5 @@
 # Báo cáo khắc phục Pipeline CI/CD
 
-- Sinh viên: Đặng Khánh An - PTIT070.
-- Workflow: `.github/workflows/broken-pipeline.yml` tại gốc repository.
-- File lỗi gốc chưa được cung cấp; dưới đây phân tích theo tình huống đề bài, không phải log lỗi đã quan sát trong repository này.
-
 ## 1. Gradle Wrapper thiếu quyền thực thi
 
 Dấu hiệu thường gặp: `./gradlew: Permission denied`, exit code 126.
